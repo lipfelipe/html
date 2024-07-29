@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>porsche</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+  <!-- Estilo -->
+  <style>
+    /* Asteristico indica que irá mexer em todos os elementos da página*/
+   * {
+     /* Margem Externa*/
+     margin: 0;
+     /* Margem Interna*/
+     padding: 0;
+
+     font-family: Arial, Helvetica, sans-serif; 
+   }
+
+
+    header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 200px;
+      background-color: #cc8800;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0);
+    }
+    header > img {
+      height: 100%;
+      width: auto;
+    }
+
+    header > nav{
+      display: inline-block;
+      float: right;
+      margin-top: 30px;
+      margin-right: 20px;
+    }
+    header >nav > ul{red
+      list-style: none;
+      display: inline-block;
+    }
+
+    header > nav > ul >li{
+      display: inline-block;
+      margin-left: 6px;
+      font-size: 2em;
+    }
+
+    header > nav > ul li > a{
+      text-decoration: none;
+      color: #172026;
+      /* de 100 a 900*/
+      font-weight: bold;
+      transition : 0.5s font-size, 0.7s color;
+
+
+    }
+
+    header > nav > ul li> a:hover {
+      background-color: #04BFAD;
+      color: #172026;
+      font-size: 1.2em;
+      padding: 3px;
+      }
+
+    main {
+      margin-top: 20px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    main > h1{
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    main > p {
+      margin-bottom: 10px;
+      text-indent: 10px;
+      text-align: justify;
+    }
+
+    main > p#primeiro {
+      text-align: right;
+    }
+
+    main > p#segundo {
+      text-align: left;
+    }
+
+    main > p#terceiro {
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!--- Cabeçalho --->
+    <header> 
+    <img src="bugattilogo.png"
+
+      <!-- Tag de Navegação -->
+      <nav>
+        <!-- Lista Não ordenada-->
+        <ul>
+          <!--Ancora, faz um link para dentro e fora da paginaa -->
+          <li> <a href="#"> :) </a> </li>
+          <li> <a href="#primeiro"> HISTORIA </a> </li>
+          <li> <a href="#terceiro"> DA </a> </li>
+          <li> <a href="https://www.youtube.com/watch?v=-e_gINfQFz0" target="_blank">
+            PORSCHE</a>  </li>
+        </ul>
+      </nav>
+    </header>
+
+      <!---- MENU --->
+       <header>
+       <img src="chiron.jpeg"
+       <div class= "gallery-container">
+       <img src="w16.jpeg"
+       </div>
+
+
+  <!-- Conteúdo principal -->
+  <main>
+    <!--Titulos -->
+    <h1> BUGATTI</h1>
+
+
+    <!-- Paragrafos -->
+    <p id="primeiro"> Bugatti é uma marca de automóveis francesa especializada na concepção e produção de automóveis desportivos. Foi criado por Ettore Bugatti, um designer italiano. A marca passou a se chamar Bugatti Automobiles SAS e pertence ao Grupo Volkswagen, que a adquiriu em 1998. A sede está localizada na comuna de Molsheim (Alsácia, França)..</p>
+
+    <p id="segundo"> A Bugatti foi fundada em 1909, na cidade de Molsheim, na região da Alsácia, na França. Ettore Bugatti, um engenheiro talentoso e apaixonado por carros, decidiu criar sua própria marca para produzir veículos que fossem verdadeiras obras de arte sobre rodas. Desde o início, a Bugatti se destacou pela sua atenção aos detalhes, pela qualidade de seus materiais e pela busca constante pela inovação.</p>
+
+    <p id="terceiro ">Ettore Bugatti foi o fundador da marca Bugatti. Nascido na Itália em 1881, Bugatti mudou-se para a França ainda jovem e começou a trabalhar como designer de carros. Sua paixão pela engenharia e seu talento inato o levaram a fundar sua própria empresa em 1909. Bugatti era conhecido por sua personalidade excêntrica e perfeccionista, o que se refletia em cada carro que saía de sua fábrica.</p>
+
+    <footer>
+    &copy; Todos os Direitos Reservados
+      </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
